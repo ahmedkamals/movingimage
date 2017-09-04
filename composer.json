@@ -1,0 +1,32 @@
+{
+  "name": "Trial Work assignment",
+  "license": "",
+  "type": "project",
+  "description": "\"Movingimage\" trial work assignment.",
+  "autoload": {
+    "psr-4": {
+      "MovingImage\\": "src/movingimage"
+    },
+    "classmap": []
+  },
+  "autoload-dev": {
+    "psr-4": { "Tests\\": "tests/" },
+    "files": []
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "ext-dom": "*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.3",
+    "phpunit/phpunit": "^6.3"
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.0"
+    },
+    "sort-packages": true,
+    "bin-dir": "bin"
+  },
+  "minimum-stability": "stable"
+}
